@@ -1,0 +1,122 @@
+.header {
+  background-color: #1cd1b0;
+}
+
+footer {
+  background-color: #00669f;
+  text-align: center;
+  color: white;
+  padding: 25px;
+}
+
+.header > p {
+  margin: 0;
+  padding-left: 25px;
+}
+
+header {
+  background-color: #00669f;
+  color: white;
+  position: sticky;
+  top: 1px;
+  z-index: 1;
+}
+
+button {
+  /* Boton ver mas */
+  background-color: #00669f; /* Color de fondo */
+  color: white; /* Color de la letra */
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 4px; /* Redondearlo un poquito */
+  border: 2px solid #00669f; /* Color del borde*/
+}
+
+i {
+  /* Icono del corazon */
+  color: red;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+header > h1 {
+  margin: 0;
+  padding: 25px;
+}
+
+.card {
+  background-color: #f3f3f3; /* Color de fondo*/
+  border-radius: 25px 25px 0px 0px; /* Borde redondeado solo arriba*/
+  width: 450px; /*Altura*/
+  text-align: center; /*Alineacion del texto*/
+  margin: 20px auto; /*Margin arriba y abajo de 20px y auto para los lados*/
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  /* Sombra se hace con box-shadow colores tamaños y transparencias*/
+}
+
+.bg {
+  /* Clase para las imagenes de fondo */
+  border-radius: 25px 25px 0px 0px; /* Borde redondeado solo arriba*/
+  background-size: 100%; /* Tamaño de imagen */
+  height: 250px; /*Ancho*/
+  width: 450px; /*Altura*/
+  position: relative; /*relativa por que va a encerrar la imagen pequeña*/
+}
+
+.principal {
+  /* Clase para las imagenes del heroe  */
+  background-size: contain; /* */
+  height: 200px; /*Ancho*/
+  width: 200px; /*Altura*/
+  top: 140px; /* Posicion top*/
+  background-repeat: no-repeat;
+  position: absolute; /* Movimiento */
+  left: 125px; /* Posicion left*/
+  border-radius: 100px; /*Redondea*/
+}
+
+.bg-batman {
+  background-image: url("bg-batman.jpg");
+}
+
+.batman {
+  background-image: url("batman.jpg");
+}
+
+.bg-wonder {
+  background-image: url("bg-wonderw.jpg");
+}
+
+.wonder {
+  background-image: url("ww.jpg");
+}
+
+.bg-super {
+  background-image: url("bg-superman.jpg");
+}
+
+.sman {
+  background-image: url("sman.jpg");
+}
+
+h2 {
+  padding-top: 80px;
+}
+
+section {
+  position: relative;
+}
+
+.add {
+  font-size: 35px; /* Aumentar tamaño de la letra*/
+  border-radius: 100px; /* Redondear el div*/
+  position: fixed; /* Quede pegado en la pantalla*/
+  bottom: 10px; /* posicion abajo 10*/
+  right: 10px; /* posicion derecha 10*/
+  text-align: center; /* centrar la letra*/
+  width: 40px; /* Altura */
+  height: 40px; /* Ancho */
+  background-color: #00669f; /* Color de fondo */
+  color: white; /* Color de letra */
+}
